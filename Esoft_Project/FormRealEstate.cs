@@ -357,7 +357,7 @@ namespace Esoft_Project
             }
             catch
             {
-                MessageBox.Show("Невозможно удалить, эта запись используется!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Невозможно удалить, эта запись уже используется!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
         }
