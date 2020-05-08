@@ -12,25 +12,32 @@ namespace Esoft_Project
     using System;
     using System.Collections.Generic;
     
-    public partial class ClientsSet
+    public partial class DemandSet
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public ClientsSet()
+        public DemandSet()
         {
-            this.DemandSet = new HashSet<DemandSet>();
-            this.SupplySet = new HashSet<SupplySet>();
+            this.DealSet = new HashSet<DealSet>();
         }
     
         public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string MiddleName { get; set; }
-        public string LastName { get; set; }
-        public string Phone { get; set; }
-        public string Email { get; set; }
+        public int IdAgent { get; set; }
+        public int IdClient { get; set; }
+        public string Type { get; set; }
+        public string MinPrice { get; set; }
+        public string MaxPrice { get; set; }
+        public string MinArea { get; set; }
+        public string MaxArea { get; set; }
+        public string MinRooms { get; set; }
+        public string MaxRooms { get; set; }
+        public string MinFloor { get; set; }
+        public string MaxFloor { get; set; }
+        public string MinFloors { get; set; }
+        public string MaxFloors { get; set; }
     
+        public virtual AgentsSet AgentsSet { get; set; }
+        public virtual ClientsSet ClientsSet { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<DemandSet> DemandSet { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<SupplySet> SupplySet { get; set; }
+        public virtual ICollection<DealSet> DealSet { get; set; }
     }
 }

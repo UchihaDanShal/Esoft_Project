@@ -111,6 +111,11 @@ namespace Esoft_Project
                 MessageBox.Show("Невозможно удалить, эта запись используется!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void FormClient_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
