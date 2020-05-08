@@ -52,6 +52,7 @@
             // buttonOpenClients
             // 
             this.buttonOpenClients.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenClients.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonOpenClients.Location = new System.Drawing.Point(2, 167);
             this.buttonOpenClients.Name = "buttonOpenClients";
             this.buttonOpenClients.Size = new System.Drawing.Size(265, 48);
@@ -63,6 +64,7 @@
             // buttonOpenAgents
             // 
             this.buttonOpenAgents.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenAgents.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonOpenAgents.Location = new System.Drawing.Point(2, 223);
             this.buttonOpenAgents.Name = "buttonOpenAgents";
             this.buttonOpenAgents.Size = new System.Drawing.Size(265, 48);
@@ -74,6 +76,7 @@
             // buttonOpenRealEstates
             // 
             this.buttonOpenRealEstates.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenRealEstates.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonOpenRealEstates.Location = new System.Drawing.Point(2, 286);
             this.buttonOpenRealEstates.Name = "buttonOpenRealEstates";
             this.buttonOpenRealEstates.Size = new System.Drawing.Size(265, 48);
@@ -85,6 +88,7 @@
             // buttonOpenDemands
             // 
             this.buttonOpenDemands.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenDemands.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonOpenDemands.Location = new System.Drawing.Point(2, 354);
             this.buttonOpenDemands.Name = "buttonOpenDemands";
             this.buttonOpenDemands.Size = new System.Drawing.Size(265, 48);
@@ -96,6 +100,7 @@
             // buttonOpenSupplies
             // 
             this.buttonOpenSupplies.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenSupplies.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonOpenSupplies.Location = new System.Drawing.Point(2, 419);
             this.buttonOpenSupplies.Name = "buttonOpenSupplies";
             this.buttonOpenSupplies.Size = new System.Drawing.Size(265, 48);
@@ -107,6 +112,7 @@
             // buttonOpenDeals
             // 
             this.buttonOpenDeals.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenDeals.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonOpenDeals.Location = new System.Drawing.Point(2, 485);
             this.buttonOpenDeals.Name = "buttonOpenDeals";
             this.buttonOpenDeals.Size = new System.Drawing.Size(265, 48);

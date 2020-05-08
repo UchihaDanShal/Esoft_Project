@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem("");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormClient));
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonEdit = new System.Windows.Forms.Button();
@@ -62,6 +62,7 @@
             // buttonAdd
             // 
             this.buttonAdd.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonAdd.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonAdd.Location = new System.Drawing.Point(460, 415);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(75, 23);
@@ -73,6 +74,7 @@
             // buttonEdit
             // 
             this.buttonEdit.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonEdit.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonEdit.Location = new System.Drawing.Point(584, 415);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(75, 23);
@@ -84,6 +86,7 @@
             // buttonDel
             // 
             this.buttonDel.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonDel.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonDel.Location = new System.Drawing.Point(703, 415);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(75, 23);
@@ -102,20 +105,20 @@
             this.Телефон,
             this.Почта});
             this.listViewClient.HideSelection = false;
-            listViewItem7.Tag = "Id";
-            listViewItem8.IndentCount = 1;
-            listViewItem8.Tag = "FirstName";
-            listViewItem9.Tag = "MiddleName";
-            listViewItem10.Tag = "LastName";
-            listViewItem11.Tag = "Phone";
-            listViewItem12.Tag = "Email";
+            listViewItem1.Tag = "Id";
+            listViewItem2.IndentCount = 1;
+            listViewItem2.Tag = "FirstName";
+            listViewItem3.Tag = "MiddleName";
+            listViewItem4.Tag = "LastName";
+            listViewItem5.Tag = "Phone";
+            listViewItem6.Tag = "Email";
             this.listViewClient.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem7,
-            listViewItem8,
-            listViewItem9,
-            listViewItem10,
-            listViewItem11,
-            listViewItem12});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5,
+            listViewItem6});
             this.listViewClient.Location = new System.Drawing.Point(238, 106);
             this.listViewClient.Name = "listViewClient";
             this.listViewClient.Size = new System.Drawing.Size(550, 303);

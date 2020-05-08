@@ -80,6 +80,7 @@
             // buttonAdd
             // 
             this.buttonAdd.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonAdd.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonAdd.Location = new System.Drawing.Point(465, 415);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(75, 23);
@@ -91,6 +92,7 @@
             // buttonEdit
             // 
             this.buttonEdit.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonEdit.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonEdit.Location = new System.Drawing.Point(585, 415);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(75, 23);
@@ -102,6 +104,7 @@
             // buttonDel
             // 
             this.buttonDel.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonDel.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonDel.Location = new System.Drawing.Point(694, 415);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(75, 23);

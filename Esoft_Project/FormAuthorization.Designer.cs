@@ -43,6 +43,7 @@
             // buttonOK
             // 
             this.buttonOK.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOK.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOK.Location = new System.Drawing.Point(50, 183);
             this.buttonOK.Name = "buttonOK";
             this.buttonOK.Size = new System.Drawing.Size(75, 23);
@@ -54,6 +55,7 @@
             // buttonCancel
             // 
             this.buttonCancel.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonCancel.Font = new System.Drawing.Font("Roboto Black", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonCancel.Location = new System.Drawing.Point(271, 183);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
@@ -79,9 +81,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Roboto Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(104, 100);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 13);
+            this.label1.Size = new System.Drawing.Size(199, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Войдите под своей учетной записью";
             // 
